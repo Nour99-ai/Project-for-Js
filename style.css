@@ -1,0 +1,93 @@
+#upper_images,
+#lower_images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+#middle_space {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image1,
+#image2,
+#image3,
+#image4,
+#image5,
+#image6,
+#image7,
+#image8 {
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s ease;
+}
+
+#middle_image {
+    width: 100px;
+    height: 200px;
+    object-fit: cover;
+    display: none;
+    transition: all 0.3s ease;
+}
+
+#middle_image.active {
+    display: block;
+}
+
+[id$="_div"] {
+    width: 100px;
+    height: 100px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+/* Glowing hover effects */
+#image1:hover {
+    box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.7);
+    filter: brightness(1.2);
+}
+
+#image2:hover {
+    box-shadow: 0 0 20px 5px rgba(0, 255, 0, 0.7);
+    filter: brightness(1.2);
+}
+
+#image3:hover {
+    box-shadow: 0 0 20px 5px rgba(0, 0, 255, 0.7);
+    filter: brightness(1.2);
+}
+
+#image4:hover {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 0, 0.7);
+    filter: brightness(1.2);
+}
+
+#image5:hover {
+    box-shadow: 0 0 20px 5px rgba(255, 0, 255, 0.7);
+    filter: brightness(1.2);
+}
+
+#image6:hover {
+    box-shadow: 0 0 20px 5px rgba(0, 255, 255, 0.7);
+    filter: brightness(1.2);
+}
+
+#image7:hover {
+    box-shadow: 0 0 20px 5px rgba(255, 128, 0, 0.7);
+    filter: brightness(1.2);
+}
+
+#image8:hover {
+    box-shadow: 0 0 20px 5px rgba(128, 0, 255, 0.7);
+    filter: brightness(1.2);
+}
